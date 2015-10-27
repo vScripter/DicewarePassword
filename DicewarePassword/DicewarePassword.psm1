@@ -231,7 +231,7 @@ function New-DicewarePassword {
 				$word = $null
 				$diceRoll = $null
 				
-				$diceRoll = xInvoke-DiceRoll -ErrorAction Stop
+				$diceRoll = Invoke-DiceRoll -ErrorAction Stop
 				$word = ($wordList | Where-Object { $_.Number -eq $diceRoll }).Word
 				
 				$result1 += " $word"
