@@ -3,6 +3,9 @@
 *.psproj.psbuild
 *.psbuild
 
+#VS Code Files
+*.vscode
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
