@@ -12,7 +12,7 @@
 	RootModule = 'DicewarePassword.psm1'
 
 	# Version number of this module.
-	ModuleVersion = '1.0.2.0'
+	ModuleVersion = '1.0.3.0'
 
 	# ID used to uniquely identify this module
 	GUID = '9a7af7ca-7036-43b1-aef0-5c1833f0a1f4'
@@ -105,9 +105,8 @@
 			# IconUri = ''
 
 			# ReleaseNotes of this module
-			ReleaseNotes = ' v1.0.2.0 Release Notes
-* Updated module description
-* Added License and Project URIs to module PSData
+			ReleaseNotes = ' v1.0.3.0 Release Notes
+* Modifed the default URI for the .csv to include the full URI path and not a shortened link
 '
 
 		} # End of PSData hashtable
