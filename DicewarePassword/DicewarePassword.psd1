@@ -12,7 +12,7 @@
 RootModule = 'DicewarePassword.psm1'
 
 # Version number of this module.
-ModuleVersion = '1.0.3.2'
+ModuleVersion = '1.1.0.0'
 
 # ID used to uniquely identify this module
 GUID = '9a7af7ca-7036-43b1-aef0-5c1833f0a1f4'
@@ -24,7 +24,7 @@ Author = 'Kevin M. Kirkpatrick'
 CompanyName = 'https://github.com/vScripter'
 
 # Copyright statement for this module
-Copyright = '(c) 2015 Kevin M. Kirkpatrick. All rights reserved.'
+Copyright = '(c) 2017 Kevin Kirkpatrick. All rights reserved.'
 
 # Description of the functionality provided by this module
 Description = 'This module is inspired by the ''Diceware Passphrase'' principals detailed by Arnold G. Reinhold. It simulates the rolling of dice and generates more secure passwords that are easier to remember. Diceware is a trademark of A G Reinhold. See http://www.diceware.com for more information about Diceware.'
@@ -92,7 +92,7 @@ PrivateData = @{
     PSData = @{
 
         # Tags applied to this module. These help with module discovery in online galleries.
-        Tags = 'Diceware','Password','Passwords'
+        Tags = 'Diceware','Password','Passwords','passphrase'
 
         # A URL to the license for this module.
         LicenseUri = 'https://github.com/vScripter/DicewarePassword/blob/master/LICENSE.md'
@@ -104,9 +104,9 @@ PrivateData = @{
         # IconUri = ''
 
         # ReleaseNotes of this module
-        ReleaseNotes = ' v1.0.3.0 Release Notes
-* Modifed the default URI for the .csv to include the full URI path and not a shortened link
-* Specified functions to export in module manifest
+        ReleaseNotes = ' v1.1.0.0 Release Notes
+* Updated to use cryptographic RNG
+* Diceware wordlist is now included in the module, instead of fetching via REST call
 '
 
         # External dependent modules of this module
