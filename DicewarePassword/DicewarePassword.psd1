@@ -18,7 +18,7 @@ ModuleVersion = '1.1.0.0'
 GUID = '9a7af7ca-7036-43b1-aef0-5c1833f0a1f4'
 
 # Author of this module
-Author = 'Kevin M. Kirkpatrick'
+Author = 'Kevin Kirkpatrick'
 
 # Company or vendor of this module
 CompanyName = 'https://github.com/vScripter'

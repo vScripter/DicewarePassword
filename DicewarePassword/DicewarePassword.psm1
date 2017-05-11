@@ -229,7 +229,7 @@ function New-DicewarePassword {
 
 		#Requires -Version 3
 
-		if ($URI) {
+		if ($FetchType -eq 'Web') {
 
 			Write-Verbose -Message "[New-DicewarePassword] Calling REST 'Get' method from URI {$URI}. I will then import and store the Diceware Word List"
 			try {
@@ -243,7 +243,7 @@ function New-DicewarePassword {
 
 			} # end try/catch
 
-		} elseif ($Path) {
+		} elseif ($FetchType -eq 'Local') {
 
 			Write-Verbose -Message "[New-DicewarePassword] Importing and storing Diceware Word List from Path {$Path}"
 			try {
